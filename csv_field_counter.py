@@ -13,4 +13,4 @@ with open('event.csv', newline='') as csvfile:
 largest_field = max(row_list, key=len)
 largest_field_size =len(max(row_list, key=len))
 
-print(f'The largest field in column {column} is "{largest_field}" and the size is {largest_field_size} characters long')
+print(f'The largest field in column {column} is "{largest_field}" and the size is {largest_field_size} characters long.')
